@@ -560,13 +560,11 @@
 
     
     <repositories>
-
-
         <repository>
-  <id>maven-releases</id>
-  <name>maven-releases</name>
-  <urlhttp://3.94.102.58:8081/repository/maven-releases//</url>
-</repository>
+            <id>maven-releases</id>
+            <name>maven-releases</name>
+            <urlhttp://3.94.102.58:8081/repository/maven-releases//</url>
+        </repository>
              
         <repository>
             <id>repository.spring.milestone</id>
