@@ -7,5 +7,5 @@ WORKDIR dest/
 COPY target/petclinic.war dest/petclinic.war
 
 
-ENTRYPOINT ["java","-jar","/petclinic.war"]
+ENTRYPOINT ["java","-jar","dest/petclinic.war"]
 
