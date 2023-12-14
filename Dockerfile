@@ -1,4 +1,4 @@
-FROM java
+FROM tomcat
 
 EXPOSE 8082
 
