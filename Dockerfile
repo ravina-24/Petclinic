@@ -1,8 +1,11 @@
-FROM tomcat
+FROM java
 
 EXPOSE 8082
 
-ADD target/petclinic.war petclinic.war
+WORKDIR dest/
+
+COPY target/petclinic.war dest/petclinic.war
 
 
 ENTRYPOINT ["java","-jar","/petclinic.war"]
+
